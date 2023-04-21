@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: black;
 }
 
 .App-logo {
@@ -35,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-gradient {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 2px;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, pink, purple) 1;
+  margin: 5px;
+}
+
+.btn-minimalistic {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px
+}
+
+.btn-minimalistic:hover {
+  background-color: black;
+  color: white;
+}
+
+.toDoInput {
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20%;
+  font-size: 20px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
 }
